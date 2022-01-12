@@ -66,7 +66,7 @@ holidays = {
         },
 }
 
-workdays = 
+workdays = {
     2016:
         {
             'Spring Festival Shift': [(2, 6), (2, 14)],
