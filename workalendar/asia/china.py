@@ -6,6 +6,28 @@ from ..registry_tools import iso_register
 from ..exceptions import CalendarError
 
 holidays = {
+    2016:
+        {
+            'New year': [(1, 1), (1, 2), (1, 3)],
+            'Spring Festival': [(2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 12), (2, 13)],
+            'Ching Ming Festival': [(4, 2), (4, 3), (4, 4)],
+            'Labour Day Holiday': [(4, 30), (5, 1), (5, 2)],
+            'Dragon Boat Festival': [(6, 9), (6, 10), (6, 11)],
+            'Mid-Autumn Festival': [(9, 15), (9, 16), (9, 17)],
+            'National Day': [(10, 1), (10, 2), (10, 3), (10, 4), (10, 5), (10, 6), (10, 7)],
+            'New year': [(12, 31)],
+        }
+    2017:
+        {
+            'New year': [(1, 1), (1, 2)],
+            'Spring Festival': [(1, 27), (1, 28), (1, 29), (1, 30), (1, 31), (2, 1), (2, 2)],
+            'Ching Ming Festival': [(4, 2), (4, 3), (4, 4)],
+            'Labour Day Holiday': [(4, 29), (4, 30), (5, 1)],
+            'Dragon Boat Festival': [(5, 28), (5, 29), (5, 30)],
+            'Mid-Autumn Festival': [(10, 4)],
+            'National Day': [(10, 1), (10, 2), (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8)]，
+            'New year': [(12, 30), (12, 31)]
+        },
     2018:
         {
             'Ching Ming Festival': [(4, 5), (4, 6), (4, 7)],
@@ -44,7 +66,22 @@ holidays = {
         },
 }
 
-workdays = {
+workdays = 
+    2016:
+        {
+            'Spring Festival Shift': [(2, 6), (2, 14)],
+            'Ching Ming Festival Shift': [(4, 1)],
+            'Dragon Boat Festival Shift': [(6, 12)],
+            'Mid-Autumn Festival Shift': [(9, 18)],
+            'National Day Shift': [(10, 8), (10, 9)],
+        },
+    2017:
+        {
+            'Spring Festival Shift': [(1, 22), (2, 4)],
+            'Ching Ming Festival Shift': [(4, 1)],
+            'National Day Shift': [(9, 30)],
+            'New year Shift': [(12, 29)]
+        },
     2018:
         {
             'Spring Festival Shift': [(2, 11), (2, 24)],
